@@ -7,7 +7,7 @@ description: "Every failure is leading towards success."
 keyword: " Blog, 博客, iOS, Apple, iPhone"
 url: "https://gtise.github.io/"          # your host, for absolute URL
 baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
-#github_repo: "https://github.com/qiubaiying/qiubaiying.github.io.git" # you code repository
+github_repo: "https://github.com/gtise/gtise.github.io.git" # you code repository
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
@@ -25,6 +25,12 @@ facebook_username:
 jianshu_username:   a0879ebf3f91
 #twitter_username:   
 
+# Build settings
+# from 2016, 'pygments' is unsupported on GitHub Pages. Use 'rouge' for highlighting instead.
+permalink: pretty
+paginate: 10
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+anchorjs: true                          # if you want to customize anchor. check out line:181 of `post.html`
 
 
 
