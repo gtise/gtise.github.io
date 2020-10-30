@@ -19,9 +19,9 @@ sidebar-about-description: "Goals determine what you going to be!"
 # SNS settings
 RSS: false
 # weibo_username:     
-zhihu_username:     
+#zhihu_username:     
 github_username:    gtise
-facebook_username:  
+#facebook_username:  
 jianshu_username:   a0879ebf3f91
 #twitter_username:   
 
@@ -36,7 +36,7 @@ anchorjs: true                          # if you want to customize anchor. check
 
 # Gems
 # from PR#40, to support local preview for Jekyll 3.0
-gems: [jekyll-paginate]
+# gems: [jekyll-paginate]
 
 
 
